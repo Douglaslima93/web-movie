@@ -21,7 +21,7 @@ const NavBar = () => {
         <nav id='navbar'>
 
       <h2>
-        <Link to="/"><BiCameraMovie/>Movie</Link>
+        <Link to="/"><BiCameraMovie/>Movies</Link>
       </h2>
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Busque um filme" 
