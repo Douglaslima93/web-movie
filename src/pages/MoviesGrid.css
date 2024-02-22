@@ -2,7 +2,11 @@
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
-    margin: 2rem 0 1rem;
+    margin: 2rem 1rem;
+}
+
+.container .title:hover{
+    color: #f7d354;
 }
 
 .title .query-text {
@@ -57,4 +61,26 @@
 .movies-container div a:hover {
     background-color: transparent;
     color: #f7d354;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.top:hover {
+    scale: 1.2;
+}
+
+@media screen and (max-width: 350px) {
+    .container .title{
+        font-size: 2rem;
+    }
+
+    .movies-container div {
+        width: 100%;
+        
+    }
 }

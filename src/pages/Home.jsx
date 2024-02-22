@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
 import './MoviesGrid.css'
+import Subir from '../assets/icons8-top-64.png'
 
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
@@ -35,6 +36,7 @@ const Home = () => {
             {topMovies.length > 0 && 
                 topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/> )}
         </div>
+        <a className="top" href="#navbar"><img src={Subir} alt="" /></a>
     </div>
     )
 }

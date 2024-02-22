@@ -40,3 +40,10 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media screen and (max-width: 350px) {
+    #navbar {
+        gap: 10px;
+        padding: 1rem .5rem;
+    }
+}

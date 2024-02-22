@@ -9,6 +9,8 @@ import {
 } from 'react-icons/bs';
 import MovieCard from "../components/MovieCard";
 import './Movie.css';
+import Voltar from '../assets/icon-voltar.png'
+import { Link } from "react-router-dom";
 
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
@@ -75,8 +77,11 @@ const Movie = () => {
                 {movie.overview}
             </p>
         </div>
-        </>}
+        </>
+        }
+        <Link className="voltar" to="/"><img src={Voltar} alt="" /></Link>
     </div>
+    
     )
 }
 
