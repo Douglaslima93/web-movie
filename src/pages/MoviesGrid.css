@@ -84,3 +84,14 @@
         
     }
 }
+
+@media screen and (max-width: 700px) {
+    .container .title{
+        font-size: 2rem;
+    }
+
+    .movies-container div {
+        width: 100%;
+        
+    }
+}
