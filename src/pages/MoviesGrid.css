@@ -80,8 +80,11 @@
     }
 
     .movies-container div {
-        width: 100%;
-        
+        width: 100%;  
+    }
+
+    .movies-container div img{
+        margin: 10px auto;
     }
 }
 
@@ -92,6 +95,9 @@
 
     .movies-container div {
         width: 100%;
-        
+    }
+
+    .movies-container div img{
+        margin: 10px auto;
     }
 }
